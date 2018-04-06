@@ -7,11 +7,11 @@ import optparse
 from functools import cmp_to_key
 
 # from alignment import *
-from visualization import check_gnuplot, check_printable, check_xelatex
-from visualization import gnuplot, xelatex
-from visualization import DOC_HEADER_COMPARE, DOC_HEADER_SINGLE
-from visualization import DEC_HEADER1, DEC_HEADER2, DOC_FOOTER
-from visualization import get_font, write_plot_hist, print_align_table
+from visualize import check_gnuplot, check_printable, check_xelatex
+from visualize import gnuplot, xelatex
+from visualize import DOC_HEADER_COMPARE, DOC_HEADER_SINGLE
+from visualize import DEC_HEADER1, DEC_HEADER2, DOC_FOOTER
+from visualize import get_font, write_plot_hist, print_align_table
 from alignment import cmp_score, cmp_score_best, cmp_score_diff, extract_scores
 from alignment import read_align_file, get_score_dist
 
