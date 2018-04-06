@@ -222,7 +222,7 @@ def main(argv):
     score_pdf = prefix + '-score.pdf'
     score_tex = 'score.tex'
     shutil.copyfile(os.path.join(os.path.dirname(__file__),
-                    'template', 'score.tex'), os.path.join(pre_dir, score_tex))
+                    'score_template.tex'), os.path.join(pre_dir, score_tex))
     print('Compiling {0}...'.format(score_pdf), file=sys.stderr)
     xelatex(score_tex, score_pdf, work_dir=pre_dir)
     print('Supporting files written to {0}.'.format(pre_dir), file=sys.stderr)
